@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 import pyserial
 
 ser = serial.Serial(device='/dev/ttyUSB0',baudrate=9600)
